@@ -13,3 +13,10 @@ bin/wfc-pkt-router
 lib64/libmediaadaptor.so
 lib64/libmedia.so:lib64/libmedia_ims.so
 lib64/libePdgJni.so
+
+# camera
+-app/MotoSignatureApp/MotoSignatureApp.apk;PRESIGNED
+-priv-app/MotCamera2/MotCamera2.apk;PRESIGNED
+etc/permissions/com.motorola.camera2.content.ai.xml
+etc/permissions/com.motorola.camera2.hallasan.xml
+etc/permissions/privapp-permissions-com.motorola.camera2.xml
